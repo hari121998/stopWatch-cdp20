@@ -1,1 +1,83 @@
 /* Write CSS here */
+.container {
+  background-image: URL('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+
+  width: 250px;
+}
+
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+}
+
+.timer-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.image-timer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timer-heading {
+  color: #333333;
+  font-family: 'Roboto';
+}
+
+.counter-heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.btn1 {
+  background-color: #1db05f;
+}
+.btn2 {
+  background-color: #ef0d36;
+}
+.btn3 {
+  background-color: #eaa800;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    background-image: URL('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    background-size: cover;
+  }
+}
